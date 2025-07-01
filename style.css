@@ -1,0 +1,26 @@
+
+body {
+  background-color: #fff8f0;
+  color: #2c1e1e;
+  font-family: 'Georgia', serif;
+  padding: 20px;
+}
+h1, h2 {
+  color: #7a0000;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  margin: 8px 0;
+}
+nav ul li a {
+  color: #f4af1b;
+  text-decoration: none;
+}
+footer {
+  margin-top: 50px;
+  font-style: italic;
+  color: #444;
+}
