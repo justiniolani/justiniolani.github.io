@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Justin Iolani – House of ʻIolani</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="scripts/main.js"></script>
 </head>
 <body>
   <header>
@@ -19,9 +20,21 @@
         <li><a href="iogpt.html">IoGPT</a></li>
       </ul>
     </nav>
-    <footer>
-      <p>Ua Mau ke Ea o ka ʻĀina i ka Pono – The life of the land is perpetuated in righteousness.</p>
-    </footer>
   </header>
+  <main>
+    <section id="scrollAnimation">
+      <h3>🌀 Scroll of Return</h3>
+      <p id="scrollLine">“Let the line of breath unfold...”</p>
+    </section>
+    <section id="aiOracle">
+      <h3>🧠 Speak to the Oracle</h3>
+      <input type="text" placeholder="Ask a sacred question..." id="oracleInput" />
+      <button onclick="speakToOracle()">Ask ʻIo</button>
+      <p id="oracleResponse">Awaiting your breath...</p>
+    </section>
+  </main>
+  <footer>
+    <p>Ua Mau ke Ea o ka ʻĀina i ka Pono – The life of the land is perpetuated in righteousness.</p>
+  </footer>
 </body>
 </html>
